@@ -8,5 +8,5 @@ for file in os.listdir(desktop):
         ext = os.path.splitext(file)[1]
         dir = f'{desktop}/{ext}'
         if not os.path.isdir(dir):
-            os.mkdir(dir)
+            os.mkdir(dir.lower())
         shutil.move(os.path.join(desktop, file), os.path.join(dir, file))
