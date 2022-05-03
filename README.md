@@ -1,5 +1,5 @@
 # Desktop Organizer
-`Python` `NodeJS`
+`NodeJS` `Python`
 
 ---
 
